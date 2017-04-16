@@ -2,13 +2,17 @@
 > 也不需要去收藏夹找网址~          
 > 我的目的大概就是如此。   
 
+项目地址：https://github.com/yimogit/metools
+
+>下面开始一本正经的扯淡
+
 ## 论个人工具站点的必要性
 
-1. 问：想要【加密/解密/编码/解码】怎么办？     
-    答：搜索 加密... 收藏夹找网址       
+>1. 问：想要【加密/解密/编码/解码】怎么办？     
+    >答：搜索 加密... 收藏夹找网址       
 
-2. 问：想要临时生成一个二维码怎么办？      
-    答：搜索 在线生成二维码... 收藏夹找网址
+>2. 问：想要临时生成一个二维码怎么办？      
+    >答：搜索 在线生成二维码... 收藏夹找网址
 
 > what? 收藏了一堆东西找不到~       
 > what? 一不小心就点到了广告~       
@@ -18,8 +22,6 @@
 然后~~        
 卧槽。一不小心就折腾了出来，此处应有链接 [http://tools.yimo.link/](http://tools.yimo.link/)     
 
-项目为纯静态站点托管在coding.net&github.com,使用pages服务托管并绑定的是自己的域名，下面介绍下 `不花一分钱就能拥有自己的工具站点` 的方法
-
 ## 如何不花一分钱就能拥有自己的工具站点？   
 
 当然是用开源平台的pages服务了~
@@ -28,19 +30,22 @@
 0. 首先你得有一个github.com账号      
 1. 其次你得去[github.com项目地址](https://github.com/yimogit/metools) fork下项目
 ![](http://images2015.cnblogs.com/blog/662652/201704/662652-20170415105351173-421111866.png)    
-2. 再然后访问你的工具站吧 https://用户名.github.io/metools/              
+2. 再然后访问你的工具站吧 `https://你的用户名.github.io/metools/`              
 3. github自定义域名等相关操作自行参考[此篇文章](http://blog.csdn.net/yanzhenjie1003/article/details/51703370) 
 
 ### 二、在coding部署         
 0. 首先你得有一个coding.net账号            
 1. 其次你得去[coding.net项目地址](https://coding.net/u/yimocoding/p/metools) fork下项目
-2. 再然后访问你的工具站吧 https://用户名.coding.me/metools/       
+2. 再然后访问你的工具站吧 `https://你的用户名.coding.me/metools/`       
 
 ### 补充说明
 
 可以通过修改`/static/data/initData.js`来个性化定制自己的工具站~               
 可以配置网站的Logo，名称，底部链接，以及菜单~   
 添加了百度统计代码和畅言的留言，不需要的自行移除~
+pages部署后可能会有缓存的情况            
+github部署gh-pages分支        
+coding部署coding-pages分支        
 
 ## 项目说明
 > vue-cli生成的vue2.0项目，页面套的layui的模板，简单封装了一下layui的组件       
